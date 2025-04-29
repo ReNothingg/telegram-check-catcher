@@ -1,0 +1,15 @@
+api_id = 00000000
+api_hash='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+channel = -10099999999
+avto_vivod = True
+avto_vivod_tag = 'username'
+avto_otpiska = True
+anti_captcha = True
+ocr_api_key = 'K88711811888957' # Ключ API для OCR. Я его нашел на лолзе. Так что мне пофигу.
+
+MAX_RETRIES = 3  # Максимальное количество попыток для операций
+RETRY_DELAY = 5  # Задержка между попытками в секундах
+MAX_CACHED_CHECKS = 1000  # Максимальное количество кэшированных чеков
+CLEANUP_INTERVAL = 3600  # Интервал очистки в секундах
+JOIN_TIMEOUT = 30  # Таймаут для присоединения к каналам
+REQUEST_TIMEOUT = 10  # Таймаут для запросов
