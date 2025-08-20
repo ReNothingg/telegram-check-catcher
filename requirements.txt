@@ -1,3 +1,4 @@
 telethon==1.30.3
 requests
 regex
+tenacity
