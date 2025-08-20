@@ -22,7 +22,7 @@
 
 Откройте терминал в папке проекта и выполните:
 ```bash
-pip install telethon requests regex tenacity
+pip install -r requirements.txt
 ```
 
 ## Настройка
