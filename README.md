@@ -21,7 +21,7 @@
 
 ### 1. Установка Tesseract OCR
 
-* **Windows:** [Скачать установщик](https://www.google.com/search?q=https://github.com/UB-Mannheim/tesseract/wiki).
+* **Windows:** [Скачать установщик](https://github.com/tesseract-ocr/tesseract/releases/download/5.5.0/tesseract-ocr-w64-setup-5.5.0.20241111.exe).
 * *Важно:* При установке запомните путь (обычно `C:\Program Files\Tesseract-OCR\tesseract.exe`). Если бот не увидит его, раскомментируйте строку пути в `main.py`.
 
 * **Linux (Ubuntu/Debian):**
