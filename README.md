@@ -36,7 +36,7 @@ sudo apt-get install tesseract-ocr
 Требуется Python 3.8+. Установите зависимости:
 
 ```bash
-pip install telethon aiosqlite pytesseract pillow regex
+pip install -r requirements.txt
 ```
 
 ---
