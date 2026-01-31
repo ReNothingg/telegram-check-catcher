@@ -1,0 +1,7 @@
+__pycache__
+.env
+
+session.session
+session.session-journal
+
+history.db
