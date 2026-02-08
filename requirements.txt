@@ -1,4 +1,4 @@
-telethon==1.30.3
+telethon
 requests
 regex
 tenacity
