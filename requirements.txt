@@ -1,7 +1,5 @@
-telethon
-requests
-regex
-tenacity
-python-dotenv
+aiosqlite
 pillow
+python-dotenv
 pytesseract
+telethon

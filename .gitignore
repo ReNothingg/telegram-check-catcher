@@ -5,3 +5,5 @@ session.session
 session.session-journal
 
 history.db
+history.db-shm
+history.db-wal
