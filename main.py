@@ -319,13 +319,13 @@ def parse_telegram_url(url: str) -> Tuple[Optional[str], Optional[str]]:
 @client.on(events.NewMessage(outgoing=False))
 async def main_handler(event) -> None:
     text = event.raw_text or ""
-    if "t.me" not in text and "start=" not in text:
+    reply_markup = getattr(event.message, "reply_markup", None)
+    if "t.me" not in text and "start=" not in text and not reply_markup:
         return
 
     for bot_name, code in code_regex.findall(text):
         schedule_code_activation(bot_name, code)
 
-    reply_markup = getattr(event.message, "reply_markup", None)
     if not reply_markup:
         return
 
