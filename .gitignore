@@ -7,3 +7,6 @@ session.session-journal
 history.db
 history.db-shm
 history.db-wal
+.DS_Store
+~$*
+xcuserdata/
